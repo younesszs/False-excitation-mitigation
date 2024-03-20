@@ -1,7 +1,7 @@
 library(glmnet)
 print(getwd())
 
-#Substitute PATH by the correspond path directory
+#Substitute PATH by the corresponding path directory
 setwd("PATHs")  
 Nsamp=as.matrix(read.csv("PATH/Nsamp.csv",header=F))
 X=as.matrix(read.csv("PATH/X.csv",header=F))
